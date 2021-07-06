@@ -3,7 +3,7 @@
     <title>Access Video and Microphone using Javascript</title> 
   </head>
   <body>  
-    <video id="videoDiv" autoplay>
+    <video id="videoDiv" autoplay></video>
   </body>
 
   <script type="text/javascript">
@@ -17,5 +17,4 @@
       document.getElementById("videoDiv").srcObject = stream;
     })
   </script>
-</video>
 </html>
